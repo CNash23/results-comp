@@ -12,7 +12,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -31,50 +30,38 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/CNash23/results-comp/blob/main/index.html)](https://your-solution-url.com)
 - Live Site URL: [ https://cnash23.github.io/results-comp/](https://your-live-site-url.com)
 
 ## My process
+
+I made my sections, gave them a color and positioned them. Then added the content within each one. After doing this, I added styling and more detailed positioning of the contents within each section.
 
 ### Built with
 
 - HTML
 - - CSS Grid
-- Mobile-first workflow
-  -- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I learned about the background-image linear gradient style attribute which makes blended colors. Fun!
+I also learned more about using spans to isolate elements for precise positioning.
 
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
 
 ### Continued development
 
-I will continue to focus on learning more advanced HTML and CSS
+I will continue to focus on learning more advanced HTML and CSS.
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -83,4 +70,4 @@ I will continue to focus on learning more advanced HTML and CSS
 
 ## Acknowledgments
 
-Special thanks to Frank Chambergo who help me with postioning of some elements
+Special thanks to Frank Chambergo of Fullstack Academy for helping me with the postioning of some elements.
